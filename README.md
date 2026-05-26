@@ -23,7 +23,8 @@
   - [📖 Overview](#-overview)
   - [📐 Model Equations](#-model-equations)
   - [💻 Code](#-code)
-    - [📊 Results](#-results)
+  - [📊 Results](#-results)
+    - [Key findings](#key-findings)
   - [🛠️ Installation](#️-installation)
     - [Clone the repository](#clone-the-repository)
     - [Install dependencies](#install-dependencies)
@@ -88,7 +89,8 @@ The simulation produces the standard SIR epidemic curves over a 160-day horizon.
 
 ![SIR model simulation output](SIR_model.png)
 
-**Key findings**
+### Key findings
+
 - **Basic reproduction number**: `R₀ = 3.0` (`β / γ = 0.3 / 0.1`)
 - **Peak infected**: approximately `700` individuals
 - **Peak time**: approximately day `30`
